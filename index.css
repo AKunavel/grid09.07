@@ -1,0 +1,40 @@
+.group{
+    display: grid;
+    grid-template-columns:repet (7,3fr);
+    background-color: yellow;
+     grid-template-areas: 
+    "h h h h h "
+    "ls c c c rs" 
+    "f f f f f";
+    grid-template-rows: 10vh 80vh 20vh;
+}
+
+.header{
+    grid-area:h;
+    
+}
+.leftside{
+    grid-area: ls;
+}
+.center{
+    grid-area:c;
+}
+.rightside{
+    grid-area:rs ;
+}
+.foder{
+    grid-area:f;
+}
+.group div{
+    background-color: rebeccapurple;
+    border: 2px solid rgb(52, 150, 129);
+    display: grid;
+    font-size: 20px;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    
+}
+#header{
+    color: whitesmoke;
+}
